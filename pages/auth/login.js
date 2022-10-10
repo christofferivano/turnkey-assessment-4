@@ -28,6 +28,7 @@ export default function Signup() {
                     src={btcLogo}
                     width={400}
                     height={400}
+                    alt='btcLogo'
                 />
             </div>
         </div>

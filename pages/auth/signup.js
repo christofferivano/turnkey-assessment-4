@@ -60,7 +60,7 @@ export default function Signup() {
                 <div className="flex font-bold text-xl pt-3">
                     <p className="text-white">Already registered?</p>
                     <Link href={'/auth/login/'}>
-                        <a className="text-button pl-3 hover:underline" href="/">Log In</a>
+                        <a className="text-button pl-3 hover:underline">Log In</a>
                     </Link>
                 </div>
             </div>
@@ -69,6 +69,7 @@ export default function Signup() {
                     src={btcLogo}
                     width={400}
                     height={400}
+                    alt='btcLogo'
                 />
             </div>
         </div>

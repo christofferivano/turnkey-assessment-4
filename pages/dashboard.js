@@ -17,6 +17,7 @@ export default function Dashboard() {
                         src={account}
                         width={90}
                         height={90}
+                        alt='account'
                     />
                     <div className="flex flex-col pl-6 text-white">
                         <p className="font-bold text-4xl">Christoffer Ivano</p>
@@ -30,6 +31,7 @@ export default function Dashboard() {
                     src={edit}
                     width={70}
                     height={70}
+                    alt='edit'
                 />
             </div>
         </div>
@@ -58,6 +60,7 @@ export default function Dashboard() {
                             src={btc}
                             width={40}
                             height={40}
+                            alt='btc'
                         />
                         <h1 className="text-2xl text-white font-bold pl-5">Bitcoin</h1>
                         <h1 className="text-2xl text-gray-text font-semibold pl-5">BTC</h1>
@@ -76,9 +79,10 @@ export default function Dashboard() {
                 <div className="col-span-1 py-10">
                     <div className="flex">
                         <Image 
-                            src={btc}
+                            src={eth}
                             width={40}
                             height={40}
+                            alt='eth'
                         />
                         <h1 className="text-2xl text-white font-bold pl-5">Ethereum</h1>
                         <h1 className="text-2xl text-gray-text font-semibold pl-5">ETH</h1>
@@ -97,9 +101,10 @@ export default function Dashboard() {
                 <div className="col-span-1 py-10">
                     <div className="flex">
                         <Image 
-                            src={eth}
+                            src={bnb}
                             width={40}
                             height={40}
+                            alt='bnb'
                         />
                         <h1 className="text-2xl text-white font-bold pl-5">BNB</h1>
                         <h1 className="text-2xl text-gray-text font-semibold pl-5">BNB</h1>

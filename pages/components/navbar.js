@@ -14,6 +14,7 @@ export default function Navbar(props) {
                             src={logo}
                             width={300}
                             height={75}
+                            alt='logo'
                         />
                     </a>
                 </Link>
@@ -34,6 +35,7 @@ export default function Navbar(props) {
                     src={toggle}
                     width={30}
                     height={30}
+                    alt='toggle'
                 />
             </div>
             : props.title === 'landing' ?
@@ -49,6 +51,7 @@ export default function Navbar(props) {
                     src={toggle}
                     width={30}
                     height={30}
+                    alt='toggle'
                 />
             </div>
             :
@@ -57,6 +60,7 @@ export default function Navbar(props) {
                     src={toggle}
                     width={30}
                     height={30}
+                    alt='toggle'
                 />
             </div>
             }

@@ -21,6 +21,7 @@ export default function Home() {
         </h1>
         <Image
           src={background}
+          alt='background'
         />
         <div className="absolute mt-96 z-10">
           <button className="w-80 h-14 bg-button text-2xl font-semibold rounded-md hover:opacity-90">
@@ -43,6 +44,7 @@ export default function Home() {
                 src={btc} 
                 width={40}
                 height={40}
+                alt='btc'
               />
               <h1 className="text-white text-2xl pl-6 pr-1">Bitcoin</h1>
               <h1 className="text-gray-text text-2xl">BTC</h1>
@@ -52,6 +54,7 @@ export default function Home() {
                 src={eth} 
                 width={40}
                 height={40}
+                alt='eth'
               />
               <h1 className="text-white text-2xl pl-6 pr-1">Etherium</h1>
               <h1 className="text-gray-text text-2xl">ETH</h1>
@@ -61,6 +64,7 @@ export default function Home() {
                 src={bnb} 
                 width={40}
                 height={40}
+                alt='bnb'
               />
               <h1 className="text-white text-2xl pl-6 pr-1">BNB</h1>
               <h1 className="text-gray-text text-2xl">BNB</h1>
@@ -70,6 +74,7 @@ export default function Home() {
                 src={usdt} 
                 width={40}
                 height={40}
+                alt='usdt'
               />
               <h1 className="text-white text-2xl pl-6 pr-1">TetherUS</h1>
               <h1 className="text-gray-text text-2xl">USDT</h1>
@@ -79,6 +84,7 @@ export default function Home() {
                 src={xrp} 
                 width={40}
                 height={40}
+                alt='xrp'
               />
               <h1 className="text-white text-2xl pl-6 pr-1">Ripple</h1>
               <h1 className="text-gray-text text-2xl">XRP</h1>
@@ -130,6 +136,7 @@ export default function Home() {
               src={secureAsset}
               width={50}
               height={50}
+              alt='secureAsset'
             />
             <h2 className="pl-2 text-white text-3xl font-bold">
               Secure Asset Fund for Users
@@ -146,6 +153,7 @@ export default function Home() {
               src={dataEncryption}
               width={50}
               height={50}
+              alt='dataEncryption'
             />
             <h2 className="pl-2 text-white text-3xl font-bold">
               Advanced Data Encryption
@@ -163,6 +171,7 @@ export default function Home() {
               src={chatSupport}
               width={50}
               height={50}
+              alt='chatSupport'
             />
             <h2 className="pl-2 text-white text-3xl font-bold">
               24/7 Chat Support
